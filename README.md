@@ -2,9 +2,9 @@
 
 Your mission, if you accept, will be to develop a small application named SubjectApp made of :
 
-* an Angular (v12.0.1) frontend
-* a Node (v14.17.0) backend in Typescript (or Javascript)
-* a Postgresql (v13.2.1) database
+* an Angular (v14+) frontend
+* a Node (v16+) backend in Typescript (or Javascript)
+* a Postgresql (v14+) database
 
 
 ## Description
