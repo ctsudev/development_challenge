@@ -58,7 +58,7 @@ The goal of this part is to succeed in displaying a first list of subjects
   * a page displaying the previous List of subjects
 * Test :
 
-  * a Postman collection and environnment in a ./doc/tests project folder
+  * a Postman collection and environment in a ./doc/tests project folder
 * Version :
 
   * add all changes in Git and get a commit for this part with the following message : "v1.0.0 (feat) : list of all subjects"
