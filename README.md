@@ -1,10 +1,10 @@
 # CTSU Dev Challenge - N°1 : The SubjectApp
 
-Your mission, if you accept, will be to develop a small application named SubjectApp made of :
+Your mission, if you accept, will be to develop a small application named SubjectApp composed of :
 
-* an Angular (v14+) frontend
-* a Node (v16+) backend in Typescript (or Javascript)
-* a Postgresql (v14+) database
+* an Angular (v18+) frontend
+* a Node (v22+) backend in Typescript (or Javascript)
+* a Postgresql (v16+) database
 
 
 ## Description
@@ -13,7 +13,7 @@ Your mission, if you accept, will be to develop a small application named Subjec
 
 The goal of this part is to succeed in displaying a first list of subjects
 
-- Object :  Subjects must be stored in a Pg database served to the Angular frontend via a Node API
+- Objective :  Subjects must be stored in a PostgreSQL database served to the Angular frontend via a Node API
 - Story 1 :    As an anonymous user, I can see a list of all subjects
 - Database :
   - server name : pgdev
@@ -71,7 +71,7 @@ The goal of this part is to succeed in displaying a first list of subjects
 
 The goal of this part is to succeed in adding a new subject.
 
-- Object :  Subjects must be entered via an Angular form and posted via an API endpoint into the Pg database
+- Objective :  Subjects must be entered via an Angular form and posted via an API endpoint into the Pg database
 - Story 2 :    As an anonymous user, I can add a new subject
 - Backend :
 
@@ -113,11 +113,11 @@ eg :
 
 
 
-### Part 3 : Subjects are affected to a Cancer Center
+### Part 3 : Subjects are linked to a Cancer Center
 
 The goal of this part is to succeed in linking each subject to a Center.
 
-- Object : Subjects can now be linked to a Cancer Center
+- Objective : Subjects can now be linked to a Cancer Center
 - Story 3 :    As an anonymous user, I can add a new subject linked to one of 3 possible Centers
 - Database :
 
@@ -155,9 +155,9 @@ The goal of this part is to succeed in linking each subject to a Center.
 
 ### Part 4 : Authenticated Access
 
-The goal of this part is to succeed in securing access to the list of subjects.
+The goal of this part is to secure access to the list of subjects.
 
-- Object : Subjects can now be seen only by authenticated users
+- Objective : Subjects can now be seen only by authenticated users
 - Epic :  Give access to subjects list and form only to authenticated users
 - Story 4.1 :    As an anonymous user, I can only access to a login form.
 - Story 4.2 :    As an authenticated user, I can access to the subjects list and subject entry form
@@ -174,7 +174,7 @@ The goal of this part is to succeed in securing access to the list of subjects.
 
 * Frontend :
 
-  * a Log in form
+  * a login form
 * Test (update) :
 
   * write acceptance criteria
@@ -186,10 +186,10 @@ The goal of this part is to succeed in securing access to the list of subjects.
 * Nice to have :
 
   * use stateless authentication with token
-  * display the logged user in a menu header
+  * display the logged-in user in a menu header
   * store salted password in DB
   * possibility to log out
-  * a remember-me feature (logged in duration of 1 hour)
+  * a "remember-me" feature (logged in duration of 1 hour)
   * a nice responsive layout
 
 ---
