@@ -3,7 +3,7 @@
 Your mission, if you accept, will be to develop a small application named SubjectApp composed of :
 
 * an Angular (v18+) frontend
-* a Node (v22+) backend in Typescript (or Javascript)
+* a NestJS/Node (v22+) backend in Typescript (or Javascript)
 * a Postgresql (v16+) database
 
 
