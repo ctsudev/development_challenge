@@ -1,4 +1,4 @@
-# CTSU Dev Challenge - N°1 : The SubjectApp
+# CTC Dev Challenge - N°1 : The SubjectApp
 
 Your mission, if you accept, will be to develop a small application named SubjectApp composed of :
 
@@ -196,4 +196,4 @@ The goal of this part is to secure access to the list of subjects.
 
 Thanks !   🚀️
 
-The CTSU Dev Team
+The CTC Dev Team
